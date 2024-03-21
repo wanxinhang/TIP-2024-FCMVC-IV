@@ -19,11 +19,6 @@ if(~exist(MaxResSavePath,'file'))
 end
 
 dataPath = './datasets/';
-% datasetName = {'Flower17','AwA_fea','MNIST_fea','Caltech256','VGGFace2_200_4Views','TinyImageNet_4Views','YouTubeFace50_4Views'};
-% datasetName = {'3sources','Yale','Texas','Cornell','WebKB_cor2views','MSRCV1','Washington','WebKB_Wisconsin2views','Wisconsin','Dermatology','ORLRnSp','ORL_3Views','ORL_4Views','NGs','BBCSport','Movies','BBC','proteinFold','WebKB','HW_2Views','MFeat_2Views','uci-digit','Cora','Wiki_fea','CiteSeer','NUS-WIDE-SCENE','NUS-WIDE-OBJECT-10','Reuters-7200','Hdigit','SUNRGBD','STL10_4Views','Reuters','NUS-WIDE-OBJECT','YouTubeFace10_4Views','CIFAR100_Train_4Views','FashionMNIST_4Views','MNIST_ALL_4Views','TinyImageNet_4Views','YouTubeFace50_4Views'};
-% datasetName = {'yale','Dermatology','ORL_3Views','proteinFold','Reuters','YouTubeFace10_4Views'};
-% datasetName = {'WebKB_cor2views','WebKB_Wisconsin2views','Wiki_fea'};
-% datasetName = {'Caltech256','VGGFace2_100_4Views','YouTubeFace20_4Views','VGGFace2_200_4Views','TinyImageNet_4Views'};
 datasetName = {'MFeat_2Views','uci-digit','Wiki_fea','YouTubeFace20_4Views','VGGFace2_200_4Views','TinyImageNet_4Views'};
 for dataIndex = 1 : length(datasetName)
     dataName = [dataPath datasetName{dataIndex} '.mat'];
